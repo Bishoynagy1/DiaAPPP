@@ -2,6 +2,7 @@ import pandas as pd
 import pickle
 import streamlit as st
 from sklearn.ensemble import RandomForestClassifier
+from IPython.display import display from main.py 
 
 Doo=pickle.load(open(r'DiabetesApp.sav','rb'))
 
