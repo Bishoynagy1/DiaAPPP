@@ -1,6 +1,7 @@
 import pandas as pd
 import pickle
 import streamlit as st
+import sklearn
 
 Doo=pickle.load(open(r'DiabetesApp.sav','rb'))
 
