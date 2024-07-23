@@ -2,7 +2,7 @@ import pandas as pd
 import pickle
 import streamlit as st
 
-Doo=pickle.load(open(r'E:\BOSHA DATA ANALYSIS\DiaAPP\DiabetesApp.sav','rb'))
+Doo=pickle.load(open(r'DiabetesApp.sav','rb'))
 
 st.title('Diabetes Prediction Web App')
 st.image('1.jpg')
